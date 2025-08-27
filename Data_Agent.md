@@ -84,16 +84,26 @@ except Exception as e:
 
 <h3>How to Run</h3>
 <ul>
-<li>Set your .env file with OpenAI API key</li> 
+<li>Set your .env file with OpenAI API key</li></ul>
+<img src="Images/env.png"  alt="Screenshot 1" style="width: 100%;">
+
+<ul>       
 <li>Run the agent:</li> 
 </ul>
-#image
+<img src="Images/run.png"  alt="Screenshot 1" style="width: 100%;">
 
-<li>Enter your query at the prompt:</li> 
-#image
+<ul><li>Enter your query at the prompt:</li></ul> 
+<img src="Images/input.png"  alt="Screenshot 1" style="width: 100%;">
 
-<li>Output will be a structured response:</li> 
-#image
+<ul><li>Output will be a structured response:</li></ul> 
+<img src="Images/output.png"  alt="Screenshot 1" style="width: 100%;">
+
+<h2>Output:</h2>
+<pre><code>
+        "topic": "Data Engineering", 
+        "summary": "Data Engineering is the practice of designing and building systems for collecting, storing, and analyzing data at a  large scale. It is a crucial component in the field of data analytics playing a critical role in enabling the collection and utilization of data. It is a broad field with applications in various sectors.", 
+        "sources": ["https://www.example.com/data-engineering-article1", "https://www.example.com/data-engineering-article2", "https://www.example.com/data-engineering-article3"], 
+        "tools_used": ["Web search"]'</code></pre>
 
 
 
